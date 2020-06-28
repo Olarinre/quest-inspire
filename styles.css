@@ -1,0 +1,315 @@
+body{
+    margin: 2% auto;
+    background-color:#eaeaea;
+    width:80%;
+    
+}
+
+.fa-graduation-cap, .fa-cogs, {
+    color:rgba(17, 17, 97, 0.541);
+}
+
+.fa-graduation-cap{
+    margin-left:90px;
+    margin-top:0;
+}
+.fa-cogs{
+    margin-left:90px;
+    margin-top:0;
+
+}
+
+.fa-map-marker-alt{
+    color:white;
+}
+
+.technicalsupport, .educationalsupport{
+    margin:0 30% 0 40%;
+}
+
+
+
+.topinfo, .midinfo, .undergradinfo, .technicalinfo{
+    line-height: 2.0;
+}
+.mid-section{
+   color: rgba(17, 17, 97, 0.541);
+   padding:0 2% 1% 2%;
+}
+
+
+
+h2.mid-section{
+    color:rgba(17, 17, 97, 0.541);
+    font-size: 36px;
+    text-align:center;
+
+}
+
+h4.edu, h4.technical{
+    text-transform:uppercase;
+    text-align:center;
+    margin-left:-80px;
+    
+}
+
+.bottom-section{
+    background-color:rgba(17, 17, 97, 0.541);
+    margin:0 auto;
+    padding-bottom: 15px;
+}
+
+.top-section{
+    padding:2%;
+}
+
+footer{
+    background-color: rgba(17, 17, 97, 0.541);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    margin:0 0 0 0;
+    height:50px;
+
+}
+
+footer p{
+    text-align: center;
+    padding:25px 0 0 0; 
+    color:goldenrod;    
+}
+
+.maincontent{
+    background-color:white;
+    width:100%;
+    height:100%;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    margin:2% auto;
+    padding-bottom:10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.maincontent h3{
+    text-align: center;
+    padding-top: 2%;
+    color:rgb(152, 177, 243);
+}
+
+/*styling form input*/
+.personal-details, .academic-details, .submit-btn, .contact-details  {
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-color:white;
+    width:95%;
+    margin:0 auto;
+    padding:10px 10px 10px 10px;
+
+}
+
+
+
+input[type = "text"]{
+    width:100%;
+    height:30px;
+    margin:10px 0;
+    background-color:#eaeaea;
+    border-radius:5px;  
+    -moz-border-radius:5px;  
+    -webkit-border-radius:5px;  
+    border-color:white;
+    
+}
+
+input[type ="email"]{
+    width:100%;
+    height:30px;
+    margin:10px 0;
+    background-color:#eaeaea;
+    border-radius:5px;  
+    -moz-border-radius:5px;  
+    -webkit-border-radius:5px;  
+    border-color:white;
+    border-style:inset;
+    
+}
+input [type ="date"]{
+    width:50%;
+    height: 30px;
+    background-color:#eaeaea;
+    border-radius:5px;
+    -moz-border-radius:5px;  
+    -webkit-border-radius:5px; 
+    border-color:white;
+    border-style: outset;   
+}
+
+input[type="text"]:hover{
+    background-color:white;
+}
+input[type="email"]:hover{
+    background-color:white;     
+}
+
+
+select{
+    width:50%;
+    height: 30px;
+    background-color:#eaeaea;
+    border-radius:5px;
+    -moz-border-radius:5px;  
+    -webkit-border-radius:5px; 
+    border-color:white;
+    border-style: outset;
+}
+select:hover{
+    background-color:white; 
+}
+
+label{
+    color:rgb(29, 21, 21);
+    padding:15px 2px 10px 0;
+    line-height: 2; 
+
+}
+
+legend{
+    color:rgb(133, 27, 219);
+    font-weight: bold;
+}
+
+.foreign, .local{
+    color:rgb(133, 27, 219);
+    font-weight: bold;
+}
+
+/*sytling navigation bar, links*/
+nav{
+    background-color: rgba(17, 17, 97, 0.541);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    height:50px;
+    
+}
+h2.nav-header{
+    color:white;
+    padding:10px 5px 0 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+ul{ 
+    list-style-type: none;
+    padding:0 2px 0 50%;
+    margin:-50px 0 0 0;
+    
+
+  
+}
+a:link{
+    color:white;
+    background-color:goldenrod;
+    padding:8.8px 10px 8.8px 10px;
+    border-radius:5px;
+    text-decoration:none;
+}
+li{
+    display:inline;
+    margin:0 2px;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+a:visited{
+    
+}
+a:hover{
+    color:blue;
+    background-color:white;
+
+}
+a:active{
+    color:red;
+
+}
+
+
+
+
+/* testimony session */
+.testimony-div{
+    box-sizing: border-box;
+    background-color: rgb(245, 224, 176);
+    width:40%;
+    height:280px;   
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin:0 30% 2% 30%;
+    padding:1%;
+    font-size:13px;
+    
+}
+
+h4.testimonies{
+    color:white;
+    text-align:center;
+    font-size: 24px;
+    margin-bottom:0;
+}
+.testimony-img{
+    width:100px;
+    height:100px;
+    border-radius:100px; 
+    margin:1% 36% 1% 36%;
+}
+.utme-score{
+    margin:0 36% 0 36%;
+
+}
+span.utme-score{
+    margin:0 0 0 2px;
+    padding:none;
+}
+.name{
+    margin:0 36% 0 34%;
+}
+p.info{
+    padding:0 1% 0 1%;
+    margin:none;
+}
+button.next{
+    color:red;
+    border-color:white;
+    margin:0 0 0 50px;
+    border-radius:5px;
+    
+}
+button.prev{
+    color:red;
+    border-color: white;
+    border-radius:5px;
+    
+    
+}
+
+button.next:hover, button.prev:hover{
+    background-color:lightblue;
+    border-color:blue;
+    
+}
+div.nav-icon{
+    margin:0 36% 0 36%;
+}
+
+
+
+
+
+
+
+@media  min(150) maxwidth(700px){
+
+
+
+
+}

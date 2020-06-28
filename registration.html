@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel ="stylesheet" href ="styles.css" type ="text/css">
+    <title>Quest educational consults</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="quest logo"/>
+        <nav>
+                <h2 class = "nav-header" >Quest-Inspire Educational Consults.</h4>
+            <ul>
+                <li><a href ="index.html">home</a></li>
+                <li><a href ="registration.html">register</a></li>
+                <li><a href ="">make payments</a></li>
+                <li><a href = "">blog</a></li>    
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="maincontent">
+            <h3>Registration Page</h3>
+            <form name ="registration form" method ="post" action ="">
+                <fieldset class ="personal-details">
+                    <legend> personal details</legend>
+                    <label>Firstname</label><br/>
+                    <input type ="text" name="fname" placeholder ="your firstname" maxlength="30"/> <br/>
+                    <label>Othername</label><br/>
+                    <input type ="text" name ="othername" placeholder ="your othername" maxlength ="30"/><br/>
+                    <label>Lastname</label><br/>
+                    <input type ="text" name ="lastname" placeholder ="your surname" maxlength ="30"/><br/>
+                    <label>Age</label><br/>
+                    <input type ="date" name ="age" required/><br/>
+                    <label>sex</label><br/>
+                    <select class ="dropdown" required>
+                        <option selected>select?</option>
+                        <option>male</option>
+                        <option>female</option>
+                    </select>
+                </fieldset>
+                <fieldset class ="contact-details">
+                    <legend>Contact details</legend>
+                    <label>Address</label><br/>
+                    <textarea  name ="address" cols = "30" rows ="10" required> full residential address. </textarea><br/>
+                    <leabel>Telephone no:</leabel><br/>
+                    <input type "text" name ="telephone no" required/><br/>
+                    <leabel>Email:</leabel><br/>
+                    <input type ="email" name ="email add" placeholder ="youremail@example.com" required />
+                </fieldset>
+                <fieldset class ="academic-details">
+                    <legend>Academic details</legend>
+                    <label class ="local">exams preparing for?</label> <br/>
+                    <label> WASSCE GCE </label><input type ="checkbox" name ="waecgce">
+                    <label> WAEC  </label><input type ="checkbox" name ="waeck">
+                    <label> NECO GCE </label><input type ="checkbox" name ="necogce">
+                    <label> NECO </label><input type ="checkbox" name ="neco"><br/>
+                    <label> UTME </label><input type ="checkbox" name ="utme" >
+                    <label> NABTEB </label><input type ="checkbox" name ="utme" > 
+                    <label> JUPEB </label><input type ="checkbox" name ="jupeb"><br/>
+                    <label class= "foreign" for "foreign-exams"> Foreign exams?</label><br/>
+                    <label> IELTS </label><input type ="checkbox" name ="ielts">
+                    <label> TOEFL </label><input type ="checkbox" name ="toefl">
+                    <label> SAT </label><input type ="checkbox" name ="sat">
+                </fieldset>
+                <fieldset class ="submit-btn">
+                    <input type ="submit" name="submit" value="submit"/>
+                    <input type ="reset" value ="reset" name ="reset"/>
+                </fieldset>
+                        
+                
+
+
+            </form>
+            
+
+        </div>
+
+    </main>
+
+    
+
+
+
+<script src ="app.js"></script>
+
+<footer> <p><b>&copy;  2020. Quest-Inspire Educational Consults | All rights reserved.</b></p></footer>
+</body>
+</html>
