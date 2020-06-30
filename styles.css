@@ -385,15 +385,30 @@ div.nav-icon{
         
     }
 
+    .bottom-section{
+        background-color:rgba(17, 17, 97, 0.541);
+        margin:0 auto;
+        padding-bottom: 20px;
+    }
+
+    footer{
+        background-color: rgba(17, 17, 97, 0.541);
+        border-radius:10px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        margin:0 0 0 0;
+        height:70px;
+    } 
+
     .testimony-div{
         box-sizing: border-box;
         background-color: rgb(245, 224, 176);
         width:100%;
-        height:280px;   
+        height:300px;   
         border-radius: 10px;
         box-shadow:none;
         margin:0 auto;
-        padding:1%;
+        padding:1% 1% 2% 1%;
         font-size:13px;
         
     }
@@ -427,7 +442,7 @@ div.nav-icon{
     button.next{
         color:red;
         border-color:white;
-        margin:0 0 0 20px;
+        margin:0 0 0 15px;
         border-radius:5px;
         
     }
@@ -445,7 +460,8 @@ div.nav-icon{
         
     }
     div.nav-icon{
-        margin:0 36% 0 45%;
+        margin:0 36% 0 40%;
+        padding-bottom:2%;
 
     }
 
