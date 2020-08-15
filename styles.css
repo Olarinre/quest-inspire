@@ -6,6 +6,13 @@ body{
     
 }
 
+
+img.logo{
+    margin-left:2%;
+    margin-bottom:-380px;
+    margin-top:-50px;
+}
+
 .fa-graduation-cap, .fa-cogs, {
     color:rgba(17, 17, 97, 0.541);
 }
@@ -28,6 +35,9 @@ body{
     margin:0 30% 0 40%;
 }
 
+ol.litems{
+    display:inline;
+}
 
 
 .topinfo, .midinfo, .undergradinfo, .technicalinfo{
@@ -308,6 +318,22 @@ div.nav-icon{
     padding-top:10px;
 }
 
+i.far{
+    display:inline;
+    position:absolute;
+    background-color: none;
+    margin-left:85%;
+    margin-top:-50px;
+
+}
+a.arrow{
+    background-color:none;
+    color:white;
+    background:none;
+
+}
+
+
 
 
 
@@ -493,6 +519,22 @@ div.nav-icon{
         p.info{
             padding:0 1% 0 1%;
             margin:none;
+        }
+
+        i.far{
+            display:none;
+            position:absolute;
+            background-color: none;
+            margin-left:85%;
+            margin-top:-50px;
+        
+        }
+        a.arrow{
+            background-color:none;
+            color:white;
+            background:none;
+            display:none;
+        
         }
 
 
@@ -685,6 +727,24 @@ div.nav-icon{
         p.info{
             padding:0 1% 0 1%;
             margin:none;
+        }
+
+        i.far{
+            display:none;
+            position:absolute;
+            background-color: none;
+            margin-left:85%;
+            margin-top:-50px;
+            opacity:0.5;    
+
+        }       
+        a.arrow{
+            background-color:none;
+            color:white;
+            background:none;
+            display:none;
+        
+
         }
 
 
