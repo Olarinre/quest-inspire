@@ -13,6 +13,11 @@ img.logo{
     margin-top:-50px;
 }
 
+p.questintro{
+    color:rgba(17, 17, 97, 0.541);
+}
+
+
 .fa-graduation-cap, .fa-cogs, {
     color:rgba(17, 17, 97, 0.541);
 }
@@ -254,7 +259,7 @@ a:active{
 .testimony-div{
     box-sizing: border-box;
     background-color: rgb(245, 224, 176);
-    width:60%;
+    width:65%;
     height:300px;   
     border-radius: 10px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
@@ -346,7 +351,6 @@ a.arrow{
         width:100%;
         
     }
-
     .maincontent{
         background-color:white;
         width:100%;
@@ -404,11 +408,61 @@ a.arrow{
     }
 
     nav{
-        background-color:#eaeaea;
-        padding-bottom:30%;
-    
+        background-color: rgba(17, 17, 97, 0.541);
+        border-radius:10px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        height:50px;
+        margin-bottom:-150px;
+        margin-top:50px;
+        display:none;
 
         
+    }
+    h2.nav-header{
+        color:white;
+        padding:10px 0 0 10px;
+        margin-left:-20px;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 11pt;
+        display:none;
+    }
+    ul{ 
+        list-style-type: none;
+        padding:0 2px 0 50%;
+        margin:-50px 0 0 0;
+        
+        
+    
+      
+    }
+    a:link{
+        color:white;
+        background-color:goldenrod;
+        padding:8.8px 10px 8.8px 10px;
+        border-radius:5px;
+        text-decoration:none;
+    }
+    li{
+        display:inline;
+        margin:0 10px;
+        font-family: 'Titillium Web', sans-serif;
+        float:left;
+    
+        
+    }
+    
+    a:visited{
+        
+    }
+    a:hover{
+        color:blue;
+        background-color:white;
+    
+    }
+    a:active{
+        color:red;
+    
     }
 
     .bottom-section{
@@ -476,7 +530,7 @@ a.arrow{
         color:red;
         border-color: white;
         border-radius:5px;
-        margin-left:-10px;
+        margin-left:-15px;
         
         
     }
@@ -537,6 +591,8 @@ a.arrow{
         
         }
 
+        
+
 
     
 
@@ -554,6 +610,9 @@ a.arrow{
         
     }
 
+    img.logo{
+        top:2%;
+    }
     .maincontent{
         background-color:white;
         width:100%;
@@ -611,13 +670,55 @@ a.arrow{
     }
 
     nav{
-        background-color:#eaeaea;
-        padding-bottom:30%;
-    
-
+        background-color: rgba(17, 17, 97, 0.541);
+        border-radius:10px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+        height:50px;
         
     }
-
+    h2.nav-header{
+        color:white;
+        padding:10px 0 0 10px;
+        font-family: 'Titillium Web', sans-serif;
+    }
+    ul{ 
+        list-style-type: none;
+        padding:0 2px 0 50%;
+        margin:-50px 0 0 0;
+        
+        
+    
+      
+    }
+    a:link{
+        color:white;
+        background-color:goldenrod;
+        padding:8.8px 10px 8.8px 10px;
+        border-radius:5px;
+        text-decoration:none;
+    }
+    li{
+        display:inline;
+        margin:0 10px;
+        font-family: 'Titillium Web', sans-serif;
+        float:left;
+    
+        
+    }
+    
+    a:visited{
+        
+    }
+    a:hover{
+        color:blue;
+        background-color:white;
+    
+    }
+    a:active{
+        color:red;
+    
+    }
     .bottom-section{
         background-color:rgba(17, 17, 97, 0.541);
         margin:0 auto;
