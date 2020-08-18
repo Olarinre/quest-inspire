@@ -2,33 +2,31 @@
 
 const details = [
     {
-        name:"godwin Alugbin",
+        name:"olarinreayo",
         utmescore:"301",
         text:
-            " Lorem ipsum dolor sit amet consectetur adipisicing elit\
-            Lorem ipsum dolor sit amet consectetur adipisicing elit\
-            Officia et rerum eius debitis fugit optio aliquam facili",
-        img:"dp1.jpg"
+            " wow! i am very excited about my performance in the last utme exam.\
+            well, i would say this is as a result of the combined hardwork of the sound teachers at Quest-inspire\
+            and mine also.  All thanks to God, all thanks to quest-inspire.",
+        img:"dp.jpg"
 
     },
 
     {
-        name:"obiwole solomon",
+        name:"M. Abubarka",
         utmescore:"300",
-        text:" obiwole solomon is my name ijijugkk\
-        Lorem ipsum dolor sit amet consectetur adipisicing elit\
-        Officia et rerum eius debitis fugit opjuh",
-        img:"dp2.jpg"
+        text:" i would like to acknowledge the role Quest-inspire played in my academic life; i enrolled for classes and did very well in all my exams\
+        now, I am a student of the very first and best university in Nigeria. ",
+        img:"abu.jpg"
 
     },
 
     {
-        name:"Abiola Mercyi",
+        name:"Idowu Oladimeji",
         utmescore:"301",
-        text:" Lorem ipsum dolor sit a elit\
-        Lorem ipsum dolor sit amet consectetur adipisicin\
-        Officia et rerum eius debitis fugit optio aliquaili",
-        img:"dp.jpg",
+        text:"Quest-inspire delivers the best in terms of lectures, consultacy services and quality registrations;\
+         i let Quest-inspire handle all my registrations.  ",
+        img:"dimeji.png",
 
     },
 
@@ -89,4 +87,6 @@ let random = setInterval(function every10se(){
     }
     displayperson(currentitem);
 }, 10000);
+
+//  up arrow function
 
